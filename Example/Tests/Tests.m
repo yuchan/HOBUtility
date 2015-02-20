@@ -7,15 +7,28 @@
 //
 
 #import <NSNumber+HOBUtility.h>
+#import <HOBCache.h>
 
 SpecBegin(InitialSpecs)
 
-describe(@"these will pass", ^{
+    describe(@"these will pass", ^{
     NSNumber *number = [NSNumber numberWithInt:1000];
     NSString *str = [number priceString];
     it(@"can do maths", ^{
         expect(str).equal(@"1,000");
     });
-});
+    });
 
+describe(@"cache test", ^{
+    waitUntil(^(DoneCallback done) {
+        // Async example blocks need to invoke done() callback.
+        [[HOBCache sharedCache] setCache:@"test" forKey:@"test"];
+        done();
+    });
+    
+    it(@"setcache", ^{
+        NSString *text = (NSString *)[[HOBCache sharedCache] cacheForKey:@"test"];
+        expect(text).toNot.equal(@"testtest");
+    });
+});
 SpecEnd

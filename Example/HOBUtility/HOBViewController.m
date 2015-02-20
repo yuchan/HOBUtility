@@ -7,6 +7,7 @@
 //
 
 #import "HOBViewController.h"
+#import <HOBCache.h>
 
 @interface HOBViewController ()
 
@@ -17,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    [[HOBCache sharedCache] setCache:@"init" forKey:@"view"];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    NSLog(@"%@", [[HOBCache sharedCache] cacheForKey:@"view"]);
 }
 
 - (void)didReceiveMemoryWarning
