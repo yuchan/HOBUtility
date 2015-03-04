@@ -10,13 +10,10 @@
 Pod::Spec.new do |s|
   s.name             = "HOBUtility"
   s.version          = "0.2.0"
-  s.summary          = "A short description of HOBUtility."
+  s.summary          = "HOBUtility."
   s.description      = <<-DESC
-                       An optional longer description of HOBUtility
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+my own utility library.                           
+DESC
   s.homepage         = "https://github.com/yuchan/HOBUtility"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
