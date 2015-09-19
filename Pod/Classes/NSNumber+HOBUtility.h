@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface NSNumber (HOBUtility)
-- (NSString *)priceString;
+/**
+ *  price string
+ *
+ *  @return NSString *
+ */
+- (NSString*)priceString;
 @end

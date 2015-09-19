@@ -1,28 +1,20 @@
 PODS:
-  - Expecta (0.3.2)
-  - Expecta+Snapshots (1.3.1):
-    - Expecta
-    - FBSnapshotTestCase
-  - FBSnapshotTestCase (1.5)
-  - HOBUtility (0.1.1)
-  - Specta (0.3.2)
+  - Expecta (1.0.3)
+  - HOBUtility (0.3.0)
+  - Specta (1.0.3)
 
 DEPENDENCIES:
-  - Expecta
-  - Expecta+Snapshots
-  - FBSnapshotTestCase
+  - Expecta (= 1.0.3)
   - HOBUtility (from `../`)
-  - Specta
+  - Specta (= 1.0.3)
 
 EXTERNAL SOURCES:
   HOBUtility:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
-  Expecta+Snapshots: 4a56b9411c6ed156987072e52c39de67d864015a
-  FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
-  HOBUtility: 9265abe70a185d6d9eae36168ba32989d23b74e4
-  Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  HOBUtility: 112a2dce20f0d49d7afdb7253c5f021410992a14
+  Specta: cf3e4188cf35375c3ee2cd03f8db8f1f4ef98234
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.39.0.beta.3

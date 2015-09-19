@@ -8,6 +8,10 @@
 
 #import "HOBTextViewController.h"
 
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_9_0
+@import SafariServices;
+#endif
+
 @interface HOBTextViewController ()
 
 @end
@@ -72,6 +76,14 @@
             }
         }
     }
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_9_0
+    if (([[[UIDevice currentDevice] systemVersion] compare:@"9.0" options:NSNumericSearch] != NSOrderedAscending)) {
+        SFSafariViewController* safariViewController = [[SFSafariViewController alloc] initWithURL:URL];
+        [self presentViewController:safariViewController animated:YES completion:nil];
+        return NO;
+    }
+#endif
 
     return YES;
 }
