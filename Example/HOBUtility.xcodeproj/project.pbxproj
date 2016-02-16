@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		144EFA28E02F30A2FDF643C5 /* Pods_HOBUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80231A09703EF14D5B6A90 /* Pods_HOBUtility.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		3ABF1C7406D1EDD94E9F6FB8 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513407829009E3467F742CA4 /* Pods_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		319D9060BD672D55C3FEC0FB /* Pods_HOBUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C78F82956D0F415E447E481 /* Pods_HOBUtility.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,7 +23,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		70A57F4E1BAD646F006B559D /* HOBCommonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A57F4D1BAD646F006B559D /* HOBCommonTest.m */; settings = {ASSET_TAGS = (); }; };
+		70A57F4E1BAD646F006B559D /* HOBCommonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A57F4D1BAD646F006B559D /* HOBCommonTest.m */; };
+		FCCC384ABF53EF0700F1AD29 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410180B80CC968D00DDEBC78 /* Pods_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3BB9E7985A090157E1B4DDBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		513407829009E3467F742CA4 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410180B80CC968D00DDEBC78 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HOBUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOBUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		70A57F4D1BAD646F006B559D /* HOBCommonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOBCommonTest.m; sourceTree = "<group>"; };
 		8770175D631CDC3F8BF6A2CA /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C78F82956D0F415E447E481 /* Pods_HOBUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOBUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B7A6B094C92E357D97D371 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B5A60E836BD0139F6A8D3E86 /* Pods-HOBUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOBUtility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOBUtility/Pods-HOBUtility.debug.xcconfig"; sourceTree = "<group>"; };
 		B70B53EAE04737345FF265BF /* HOBUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HOBUtility.podspec; path = ../HOBUtility.podspec; sourceTree = "<group>"; };
-		BB80231A09703EF14D5B6A90 /* Pods_HOBUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOBUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02B9BAFC6407BDE274B393A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C4FEDCD21CD9E6F00333E65F /* Pods-HOBUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOBUtility.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOBUtility/Pods-HOBUtility.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				144EFA28E02F30A2FDF643C5 /* Pods_HOBUtility.framework in Frameworks */,
+				319D9060BD672D55C3FEC0FB /* Pods_HOBUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3ABF1C7406D1EDD94E9F6FB8 /* Pods_Tests.framework in Frameworks */,
+				FCCC384ABF53EF0700F1AD29 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +125,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BB80231A09703EF14D5B6A90 /* Pods_HOBUtility.framework */,
-				513407829009E3467F742CA4 /* Pods_Tests.framework */,
+				9C78F82956D0F415E447E481 /* Pods_HOBUtility.framework */,
+				410180B80CC968D00DDEBC78 /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

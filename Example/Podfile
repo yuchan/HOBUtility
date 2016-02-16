@@ -8,6 +8,6 @@ end
 target 'Tests', :exclusive => true do
   pod "HOBUtility", :path => "../"
 
-  pod 'Specta', '1.0.3'
-  pod 'Expecta', '1.0.3'
+  pod 'Specta', '~> 1.0.0'
+  pod 'Expecta', '~> 1.0.0'
 end
